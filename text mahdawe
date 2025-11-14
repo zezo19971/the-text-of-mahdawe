@@ -1,61 +1,12 @@
-يجب عليك في الخطوة الاولى ان تلتزم بصلاتك لأنها عمود الدين 
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:background="#FFFFFF"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="16dp">
-
-    <!-- البسملة -->
-    <TextView
-        android:id="@+id/basmalaTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="#000000"
-        android:gravity="center"
-        android:layout_gravity="center_horizontal"
-        android:paddingBottom="8dp" />
-
-    <!-- عبارة الدعاء -->
-    <TextView
-        android:id="@+id/prayerTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="اللهم عجل لوليك الفرج"
-        android:textSize="20sp"
-        android:textColor="#000000"
-        android:gravity="center"
-        android:layout_gravity="center_horizontal"
-        android:paddingBottom="12dp" />
-
-    <!-- خط فاصل -->
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#BFA54C"
-        android:layout_marginBottom="12dp" />
-
-    <!-- ScrollView للنصوص -->
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-
-        <TextView
-            android:id="@+id/articleTextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="نص المقال سيظهر هنا..."
-            android:textSize="18sp"
-            android:textColor="#000000"
-            android:lineSpacingExtra="6dp"
-            android:padding="8dp"
-            android:justificationMode="inter_word"
-            android:textAlignment="viewStart" />
-    </ScrollView>
-
-</LinearLayout>
+[
+  {
+    "title": "العنوان الأول",
+    "subtitle": "اللهم عجل لوليك الفرج",
+    "content": "نص المقال الأول..."
+  },
+  {
+    "title": "العنوان الثاني",
+    "subtitle": "دعاء آخر",
+    "content": "نص المقال الثاني..."
+  }
+]
